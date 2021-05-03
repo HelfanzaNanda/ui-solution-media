@@ -17,6 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/our-process', function () {
-    return view('our-process');
-});
+Route::view('/our-process', 'our-process');

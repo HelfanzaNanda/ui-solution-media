@@ -31846,6 +31846,10 @@ video {
   --tw-backdrop-sepia: sepia(100%);
 }
 
+.-mb-186{
+  margin-bottom: -186px;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
