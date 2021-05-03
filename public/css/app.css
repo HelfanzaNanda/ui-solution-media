@@ -551,6 +551,20 @@ video {
   height: auto;
 }
 
+@font-face {
+  font-family: Gilroy-Bold;
+
+  src: url(/assets/fonts/gilroy-bold/gilroy-bold-cufonfonts-webfont/Gilroy-Bold.woff)
+            format("woff");
+}
+
+@font-face {
+  font-family: Gilroy-Medium;
+
+  src: url(/assets/fonts/gilroy-bold/gilroy-bold-cufonfonts-webfont/Gilroy-Medium.woff)
+            format("woff");
+}
+
 .container {
   width: 100%;
 }
