@@ -1,12 +1,12 @@
 @extends('layouts.app')
 @section('content')
 <div class="flex flex-col h-screen">
-    <div class="fixed px-10 top-0 left-0">
+    <div class="fixed px-10 top-0 left-0 z-20">
         <div>
             <img src="{{ asset('assets/images/logo.png') }}" alt="">
         </div>
     </div>
-    <div class="fixed px-20 top-0 right-0 py-10">
+    <div class="fixed px-20 top-0 right-0 py-10 z-20">
         <div>
             <img src="{{ asset('assets/images/toggle.png') }}" alt="" class="h-12 w-12">
         </div>
