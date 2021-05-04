@@ -31846,8 +31846,63 @@ video {
   --tw-backdrop-sepia: sepia(100%);
 }
 
-.-mb-186{
+.-mb-186 {
   margin-bottom: -186px;
+}
+
+.font--gilroy-md {
+  font-family: Gilroy-Medium;
+}
+
+.bg--dark {
+  background-color: #1a1a1a;
+}
+
+.box--dark {
+  background-color: #1a1a1a;
+  box-shadow: -5px -5px 5px 5px rgba(255, 255, 255, 0.02),
+        5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.input--custome {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 0.75rem;
+  display: block;
+}
+
+.input--custome:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.input--custome {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.input--custome::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-placeholder-opacity));
+}
+
+.input--custome:-ms-input-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-placeholder-opacity));
+}
+
+.input--custome::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-placeholder-opacity));
+}
+
+.input--custome {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  width: 100%;
 }
 
 @media (min-width: 640px) {

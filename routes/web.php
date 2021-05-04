@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::view('/our-process', 'our-process');
+Route::view('/case-studies', 'case-studies');

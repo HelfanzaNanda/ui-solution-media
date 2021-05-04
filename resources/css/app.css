@@ -15,6 +15,24 @@
     }
 }
 
-.-mb-186{
+.-mb-186 {
     margin-bottom: -186px;
+}
+
+.font--gilroy-md {
+    font-family: Gilroy-Medium;
+}
+
+.bg--dark {
+    background-color: #1a1a1a;
+}
+
+.box--dark {
+    background-color: #1a1a1a;
+    box-shadow: -5px -5px 5px 5px rgba(255, 255, 255, 0.02),
+        5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.input--custome {
+    @apply w-full px-10 py-3 appearance-none block text-white placeholder-white rounded-xl focus:outline-none;
 }
