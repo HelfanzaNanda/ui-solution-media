@@ -19,10 +19,17 @@
     <main class="flex-1 overflow-y-auto bg-gray-50 overflow-x-hidden">
         <section class="p-20 flex flex-col"
             style="background-image: url({{ asset('assets/images/bg.png') }}); height: 140%; background-position: center; background-repeat: no-repeat; background-size: cover;">
-            <div class="w-2/3 mt-20">
-                <h1 class="text-white text-7xl" style="font-family: Gilroy-Bold;">
-                    We Break boundaries to craft extraordinary experiences.
-                </h1>
+            <div class="flex">
+                <div class="w-2/3 mt-20">
+                    <h1 class="text-white text-7xl font--gilroy-bold">
+                        We drive experiences for brands with purpose.
+                    </h1>
+                </div>
+                <div class="w-1/3 flex items-end">
+                    <h1 class="stroke--text-white -mb-20 -ml-28" style="font-size: 170px;">
+                        Experiences
+                    </h1>
+                </div>
             </div>
             <div class="flex">
                 <div class="w-2/3">
@@ -32,136 +39,150 @@
                     </h5>
                 </div>
                 <div class="w-1/3 flex justify-end px-10">
-                    <a href="">
+                    <a href="" class="mt-10">
                         <img src="{{ asset('assets/images/scroll.png') }}" alt="">
                     </a>
                 </div>
             </div>
-
+            <div class="flex flex-wrap my-10">
+                <div class="w-1/3 border-b border-white flex h-40">
+                    <p class="text-white m-auto">Lorem</p>
+                </div>
+                <div class="w-1/3 border-r border-l border-b border-white flex h-40">
+                    <p class="text-white m-auto">Lorem</p>
+                </div>
+                <div class="w-1/3 border-b border-white flex h-40">
+                    <p class="text-white m-auto">Lorem</p>
+                </div>
+                <div class="w-1/3 flex h-40">
+                    <p class="text-white m-auto">Lorem</p>
+                </div>
+                <div class="w-1/3 border-r border-l border-white flex h-40">
+                    <p class="text-white m-auto">Lorem</p>
+                </div>
+                <div class="w-1/3 flex h-40">
+                    <p class="text-white m-auto">Lorem</p>
+                </div>
+            </div>
         </section>
 
-        <section class="relative p-20 z-10 bg--dark">
-            <div class="flex flex-col -mt-96 space-y-20">
-                <div class="flex flex-col space-y-10">
-                    <div class="flex space-x-20">
-                        <div class="w-1/2">
-                            <img src="{{ asset('assets/images/arch.png') }}" alt="">
-                        </div>
-                        <div class="w-1/2">
-                            <img src="{{ asset('assets/images/talky.png') }}" alt="">
+        <section class="relative p-20 bg--dark">
+            <div class="flex">
+                <div class="w-7/12">
+                    <h1 class="text-white text-7xl font--gilroy-bold">
+                        Explore ~ Ideate
+                        <br>Our Team & leads
+                    </h1>
+                    <h5 class="text-white text-opacity-40 text-xl my-5" style="font-size: 16px;">
+                        for world-class brands to make your products to live for world-class brands to make your
+                        products to live for world-class brands to make your products to
+                    </h5>
+                </div>
+                <div class="w-5/12 flex justify-end">
+                    <a href="" class="mt-10">
+                        <img src="{{ asset('assets/images/scroll.png') }}" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="flex flex-col my-10 space-y-10">
+                <div class="flex space-x-10">
+                    <div class="w-6/12 p-10 rounded-xl flex flex-col space-y-5"
+                        style="background-color: #5C4E44; opacity: 1;">
+                        <img src="{{ asset('assets/images/team/zetra.png') }}" alt="" class="mx-auto h-48 w-auto">
+                        <div class="flex flex-col space-y-2">
+                            <h3 class="font--gilroy-bold text-white text-xl mx-auto">Zetra</h3>
+                            <h4 class="font--gilroy-md text-white text-sm uppercase mx-auto">Digital Marketer</h4>
                         </div>
                     </div>
-                    <div class="flex space-x-20">
-                        <div class="w-1/2">
-                            <div class="flex flex-col space-y-3">
-                                <h3 class="text-white text-3xl" style="font-family: Gilroy-Bold;">
-                                    Arch Logo Design
-                                </h3>
-                                <h4 class="text-white uppercase text-sm" style="font-family: Gilroy-Medium;">
-                                    Logo Design
-                                </h4>
-                                <h5 class="text-white text-opacity-50" style="font-size: 17px;">
-                                    for world-class brands to make your products to live for world-class brands to make
-                                    your
-                                    products to live for world-class brands to make your products to
-                                </h5>
-                            </div>
+                    <div class="w-3/12 p-10 rounded-xl flex flex-col space-y-5"
+                        style="background-color: rgba(228, 195, 249, 0.2);">
+                        <img src="{{ asset('assets/images/team/bruce-wayne.png') }}" alt="" class="mx-auto h-48 w-auto">
+                        <div class="flex flex-col space-y-2">
+                            <h3 class="font--gilroy-bold text-white text-xl mx-auto">Bruce Wayne</h3>
+                            <h4 class="font--gilroy-md text-white text-sm uppercase mx-auto">WEB DEVELOPER</h4>
                         </div>
-                        <div class="w-1/2">
-                            <div class="flex flex-col space-y-3">
-                                <h3 class="text-white text-3xl" style="font-family: Gilroy-Bold;">
-                                    Talky | v.1.0
-                                </h3>
-                                <h4 class="text-white uppercase text-sm" style="font-family: Gilroy-Medium;">
-                                    APP DESIGN
-                                </h4>
-                                <h5 class="text-white text-opacity-50" style="font-size: 17px;">
-                                    for world-class brands to make your products to live for world-class brands to make
-                                    your
-                                    products to live for world-class brands to make your products to
-                                </h5>
-                            </div>
+                    </div>
+                    <div class="w-3/12 p-10 rounded-xl flex flex-col space-y-5"
+                        style="background-color: rgba(122, 120, 203, 0.2);">
+                        <img src="{{ asset('assets/images/team/princes-diana.png') }}" alt=""
+                            class="mx-auto h-48 w-auto">
+                        <div class="flex flex-col space-y-2">
+                            <h3 class="font--gilroy-bold text-white text-xl mx-auto">Diana Prince</h3>
+                            <h4 class="font--gilroy-md text-white text-sm uppercase mx-auto">GRAPHIC DESIGNER</h4>
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-col space-y-10">
-                    <div class="flex space-x-20">
-                        <div class="w-1/2">
-                            <img src="{{ asset('assets/images/arch.png') }}" alt="">
-                        </div>
-                        <div class="w-1/2">
-                            <img src="{{ asset('assets/images/talky.png') }}" alt="">
+                <div class="flex space-x-10">
+                    <div class="w-3/12 p-10 rounded-xl flex flex-col space-y-5"
+                        style="background-color: rgba(200, 230, 255, 0.2);">
+                        <img src="{{ asset('assets/images/team/jonathan.png') }}" alt="" class="mx-auto h-48 w-auto">
+                        <div class="flex flex-col space-y-2">
+                            <h3 class="font--gilroy-bold text-white text-xl mx-auto">Jonathan</h3>
+                            <h4 class="font--gilroy-md text-white text-sm uppercase mx-auto">UI/UX DESIGNER</h4>
                         </div>
                     </div>
-                    <div class="flex space-x-20">
-                        <div class="w-1/2">
-                            <div class="flex flex-col space-y-3">
-                                <h3 class="text-white text-3xl font--gilroy-bold">Arch Logo Design </h3>
-                                <h4 class="text-white uppercase text-sm font--gilroy-md">
-                                    Logo Design
-                                </h4>
-                                <h5 class="text-white text-opacity-50" style="font-size: 17px;">
-                                    for world-class brands to make your products to live for world-class brands to
-                                    make
-                                    your
-                                    products to live for world-class brands to make your products to
-                                </h5>
-                            </div>
+                    <div class="w-3/12 p-10 rounded-xl flex flex-col space-y-5"
+                        style="background-color: rgba(165, 181, 236, 0.2);">
+                        <img src="{{ asset('assets/images/team/clark-kent.png') }}" alt="" class="mx-auto h-48 w-auto">
+                        <div class="flex flex-col space-y-2">
+                            <h3 class="font--gilroy-bold text-white text-xl mx-auto">Clark Kent</h3>
+                            <h4 class="font--gilroy-md text-white text-sm uppercase mx-auto">ANIMATOR</h4>
                         </div>
-                        <div class="w-1/2">
-                            <div class="flex flex-col space-y-3">
-                                <h3 class="text-white text-3xl font--gilroy-bold">
-                                    Talky | v.1.0
-                                </h3>
-                                <h4 class="text-white uppercase text-sm font--gilroy-md">
-                                    APP DESIGN
-                                </h4>
-                                <h5 class="text-white text-opacity-50" style="font-size: 17px;">
-                                    for world-class brands to make your products to live for world-class brands to make
-                                    your
-                                    products to live for world-class brands to make your products to
-                                </h5>
-                            </div>
+                    </div>
+                    <div class="w-6/12 p-10 rounded-xl flex flex-col space-y-5"
+                        style="background-color: rgba(83, 142, 235, 0.2);">
+                        <img src="{{ asset('assets/images/team/barry-allen.png') }}" alt="" class="mx-auto h-48 w-auto">
+                        <div class="flex flex-col space-y-2">
+                            <h3 class="font--gilroy-bold text-white text-xl mx-auto">Barry Allen</h3>
+                            <h4 class="font--gilroy-md text-white text-sm uppercase mx-auto">ANDROID DEVELOPER</h4>
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-col space-y-10">
-                    <div class="flex space-x-20">
-                        <div class="w-1/2">
-                            <img src="{{ asset('assets/images/roady.png') }}" alt="">
-                        </div>
-                        <div class="w-1/2">
-                            <img src="{{ asset('assets/images/water-flow.png') }}" alt="">
+            </div>
+        </section>
+
+        <section class="p-20 bg--dark">
+            <div class="flex">
+                <div class="w-2/3 z-10">
+                    <h1 class="text-white text-7xl font--gilroy-bold">
+                        We drive experiences for brands with purpose.
+                    </h1>
+                    <h5 class="text-white text-opacity-40 text-xl my-5" style="font-size: 18px;">
+                        for world-class brands to make your products to live for world-class brands to make your
+                        products to live for world-class brands to make your products to
+                    </h5>
+                </div>
+                <div class="w-1/3">
+                    <h1 class="stroke--text-dark -ml-60 -mt-24 z-0" style="font-size: 160px;">
+                        Experiences
+                    </h1>
+                </div>
+            </div>
+            <div class="flex overflow-x-auto my-10">
+                <div class="flex flex-nowrap space-x-10">
+                    <div class="inline-block mb-10">
+                        <div class="w-80 h-80 overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out"
+                            style="background-color: #2B2B2B;">
                         </div>
                     </div>
-                    <div class="flex space-x-20">
-                        <div class="w-1/2">
-                            <div class="flex flex-col space-y-3">
-                                <h3 class="text-white text-3xl font--gilroy-bold">
-                                    Roady V3.0 Ilustration
-                                </h3>
-                                <h4 class="text-white uppercase text-sm font--gilroy-md">
-                                    ILLUSTTRATION DESIGN
-                                </h4>
-                                <h5 class="text-white text-opacity-50" style="font-size: 17px;">
-                                    for world-class brands to make your products to live for world-class brands to make
-                                    your products to live for world-class brands to make your products to
-                                </h5>
-                            </div>
+                    <div class="inline-block mb-10">
+                        <div class="w-80 h-80 overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out"
+                            style="background-color: #2B2B2B;">
                         </div>
-                        <div class="w-1/2">
-                            <div class="flex flex-col space-y-3">
-                                <h3 class="text-white text-3xl font--gilroy-bold">
-                                    Water-Flow App Design
-                                </h3>
-                                <h4 class="text-white uppercase text-sm font--gilroy-md">
-                                    APP DESIGN
-                                </h4>
-                                <h5 class="text-white text-opacity-50" style="font-size: 17px;">
-                                    for world-class brands to make your products to live for world-class brands to make
-                                    your products to live for world-class brands to make your products to
-                                </h5>
-                            </div>
+                    </div>
+                    <div class="inline-block mb-10">
+                        <div class="w-80 h-80 overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out"
+                            style="background-color: #2B2B2B;">
+                        </div>
+                    </div>
+                    <div class="inline-block mb-10">
+                        <div class="w-80 h-80 overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out"
+                            style="background-color: #2B2B2B;">
+                        </div>
+                    </div>
+                    <div class="inline-block mb-10">
+                        <div class="w-80 h-80 overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out"
+                            style="background-color: #2B2B2B;">
                         </div>
                     </div>
                 </div>
