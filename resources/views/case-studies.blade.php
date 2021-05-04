@@ -16,7 +16,7 @@
         </div>
     </div>
 
-    <main class="flex-1 overflow-y-auto bg-gray-50">
+    <main class="flex-1 overflow-y-auto bg-gray-50 overflow-x-hidden">
         <section class="p-20 flex flex-col"
             style="background-image: url({{ asset('assets/images/bg.png') }}); height: 140%; background-position: center; background-repeat: no-repeat; background-size: cover;">
             <div class="w-2/3 mt-20">
