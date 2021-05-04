@@ -172,9 +172,13 @@
         <section class="p-20 bg--dark">
             <div class="flex space-x-20">
                 <div class="w-7/12">
-                    <h1 class="text-white text-7xl" style="font-family: Gilroy-Bold;">
-                        Connect
-                    </h1>
+                    <div class="flex">
+                        <div class="w-full">
+                            <h1 class="text-white text-7xl" style="font-family: Gilroy-Bold;">
+                                Connect
+                            </h1>
+                        </div>
+                    </div>
                     <h5 class="text-white text-xl mt-5" style="font-size: 17px; color: #A0A0A0;">
                         for world-class brands to make your products to live for world-class brands to make
                         your
