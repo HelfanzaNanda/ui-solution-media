@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::view('/our-process', 'our-process');
 Route::view('/case-studies', 'case-studies');
 Route::view('/philosophy', 'philosophy');
+Route::view('/contact-us', 'contact-us');
+Route::view('/privacy-policy', 'privacy-policy');
+Route::view('/terms-and-conditions', 'terms-and-conditions');
+Route::view('/careers', 'careers');

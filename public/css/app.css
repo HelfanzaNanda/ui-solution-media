@@ -31936,6 +31936,10 @@ video {
   background-image: linear-gradient(to bottom right, #3e3e3e, #0d0d0d);
 }
 
+.font--size--19{
+  font-size: 19px;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

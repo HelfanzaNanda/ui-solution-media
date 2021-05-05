@@ -34,6 +34,7 @@
 
 .bg--dark {
     background-color: #1a1a1a;
+    
 }
 
 .box--dark {
@@ -64,4 +65,8 @@
 
 .bg--footer {
     background-image: linear-gradient(to bottom right, #3e3e3e, #0d0d0d);
+}
+
+.font--size--19{
+    font-size: 19px;
 }
