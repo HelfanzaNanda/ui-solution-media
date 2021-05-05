@@ -1,5 +1,11 @@
 @extends('layouts.app')
+@push('styles')
+<style>
+
+</style>
+@endpush
 @section('content')
+
 <div class="flex flex-col h-screen">
     <div class="fixed px-10 top-0 left-0 z-20">
         <div>
@@ -46,22 +52,22 @@
             </div>
             <div class="flex flex-wrap my-10">
                 <div class="w-1/3 border-b border-white flex h-40">
-                    <p class="text-white m-auto">Lorem</p>
+                    <img src="{{ asset('assets/images/swell.png') }}" alt="" class="m-auto">
                 </div>
                 <div class="w-1/3 border-r border-l border-b border-white flex h-40">
-                    <p class="text-white m-auto">Lorem</p>
+                    <img src="{{ asset('assets/images/airbnb-ericsson.png') }}" alt="" class="m-auto">
                 </div>
                 <div class="w-1/3 border-b border-white flex h-40">
-                    <p class="text-white m-auto">Lorem</p>
+                    <img src="{{ asset('assets/images/amazon.png') }}" alt="" class="m-auto">
                 </div>
                 <div class="w-1/3 flex h-40">
-                    <p class="text-white m-auto">Lorem</p>
+                    <img src="{{ asset('assets/images/forbes.png') }}" alt="" class="m-auto">
                 </div>
                 <div class="w-1/3 border-r border-l border-white flex h-40">
-                    <p class="text-white m-auto">Lorem</p>
+                    <img src="{{ asset('assets/images/hubspot.png') }}" alt="" class="m-auto">
                 </div>
                 <div class="w-1/3 flex h-40">
-                    <p class="text-white m-auto">Lorem</p>
+                    <img src="{{ asset('assets/images/loliware.png') }}" alt="" class="m-auto">
                 </div>
             </div>
         </section>
@@ -159,30 +165,93 @@
                 </div>
             </div>
             <div class="flex overflow-x-auto my-10">
-                <div class="flex flex-nowrap space-x-10">
-                    <div class="inline-block mb-10">
-                        <div class="w-80 h-80 overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                            style="background-color: #2B2B2B;">
+                <div class="flex flex-nowrap space-x-10 mb-10">
+                    <div class="flex flex-col space-y-10">
+                        <div class="inline-block">
+                            <div class="w-80 h-70 overflow-hidden rounded-lg p-10" style="background-color: #2B2B2B;">
+                                <img src="{{ asset('assets/images/airbnb.png') }}" alt="">
+                                <h5 class="text-white text-opacity-40 text-sm my-5">
+                                    for world-class brands to make your products to live for world-class brands to make
+                                    your
+                                    products to live for world-class brands to make your products to
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="inline-block">
+                            <div class="w-80 h-70 overflow-hidden rounded-lg p-10" style="background-color: #2B2B2B;">
+                                <img src="{{ asset('assets/images/airbnb.png') }}" alt="">
+                                <h5 class="text-white text-opacity-40 text-sm my-5">
+                                    for world-class brands to make your products to live for world-class brands to make
+                                    your
+                                    products to live for world-class brands to make your products to
+                                </h5>
+                            </div>
                         </div>
                     </div>
-                    <div class="inline-block mb-10">
-                        <div class="w-80 h-80 overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                            style="background-color: #2B2B2B;">
+                    <div class="flex flex-col space-y-10">
+                        <div class="inline-block">
+                            <div class="w-80 h-70 overflow-hidden rounded-lg p-10" style="background-color: #2B2B2B;">
+                                <img src="{{ asset('assets/images/opus9.png') }}" alt="">
+                                <h5 class="text-white text-opacity-40 text-sm my-5">
+                                    for world-class brands to make your products to live for world-class brands to make
+                                    your
+                                    products to live for world-class brands to make your products to
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="inline-block">
+                            <div class="w-80 h-70 overflow-hidden rounded-lg p-10" style="background-color: #2B2B2B;">
+                                <img src="{{ asset('assets/images/opus9.png') }}" alt="">
+                                <h5 class="text-white text-opacity-40 text-sm my-5">
+                                    for world-class brands to make your products to live for world-class brands to make
+                                    your
+                                    products to live for world-class brands to make your products to
+                                </h5>
+                            </div>
                         </div>
                     </div>
-                    <div class="inline-block mb-10">
-                        <div class="w-80 h-80 overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                            style="background-color: #2B2B2B;">
+                    <div class="flex flex-col space-y-10">
+                        <div class="inline-block">
+                            <div class="w-80 h-70 overflow-hidden rounded-lg p-10" style="background-color: #2B2B2B;">
+                                <img src="{{ asset('assets/images/microsoft.png') }}" alt="">
+                                <h5 class="text-white text-opacity-40 text-sm my-5">
+                                    for world-class brands to make your products to live for world-class brands to make
+                                    your
+                                    products to live for world-class brands to make your products to
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="inline-block">
+                            <div class="w-80 h-70 overflow-hidden rounded-lg p-10" style="background-color: #2B2B2B;">
+                                <img src="{{ asset('assets/images/microsoft.png') }}" alt="">
+                                <h5 class="text-white text-opacity-40 text-sm my-5">
+                                    for world-class brands to make your products to live for world-class brands to make
+                                    your
+                                    products to live for world-class brands to make your products to
+                                </h5>
+                            </div>
                         </div>
                     </div>
-                    <div class="inline-block mb-10">
-                        <div class="w-80 h-80 overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                            style="background-color: #2B2B2B;">
+                    <div class="flex flex-col space-y-10">
+                        <div class="inline-block">
+                            <div class="w-80 h-70 overflow-hidden rounded-lg p-10" style="background-color: #2B2B2B;">
+                                <img src="{{ asset('assets/images/airbnb.png') }}" alt="">
+                                <h5 class="text-white text-opacity-40 text-sm my-5">
+                                    for world-class brands to make your products to live for world-class brands to make
+                                    your
+                                    products to live for world-class brands to make your products to
+                                </h5>
+                            </div>
                         </div>
-                    </div>
-                    <div class="inline-block mb-10">
-                        <div class="w-80 h-80 overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                            style="background-color: #2B2B2B;">
+                        <div class="inline-block">
+                            <div class="w-80 h-70 overflow-hidden rounded-lg p-10" style="background-color: #2B2B2B;">
+                                <img src="{{ asset('assets/images/airbnb.png') }}" alt="">
+                                <h5 class="text-white text-opacity-40 text-sm my-5">
+                                    for world-class brands to make your products to live for world-class brands to make
+                                    your
+                                    products to live for world-class brands to make your products to
+                                </h5>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -252,7 +321,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex">
+            <div class="flex mt-10">
                 <button class="box--dark font--gilroy-md w-full p-3 rounded-xl text-white">Send</button>
             </div>
         </section>
@@ -263,7 +332,7 @@
                     <h1 class="text-white text-7xl font--gilroy-bold">
                         Creativity + Efficiency
                     </h1>
-                    <h5 class="text-white uppercase" style="font-size: 15px;">
+                    <h5 class="text-white upsmrcase">
                         Developed in India With &ensp;<i class="fas fa-heart text-red-500"></i>
                     </h5>
                 </div>
@@ -313,3 +382,9 @@
     </main>
 </div>
 @endsection
+
+@push('scripts')
+<script>
+
+</script>
+@endpush
