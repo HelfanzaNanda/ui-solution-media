@@ -28,3 +28,4 @@ Route::view('/capabilities', 'capabilities');
 Route::view('/careers', 'careers');
 Route::view('/desktop-50', 'desktop-50');
 Route::view('/test', 'try-conic-gradient');
+Route::view('/see-more', 'see-more');
