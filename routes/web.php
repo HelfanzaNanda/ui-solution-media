@@ -23,5 +23,7 @@ Route::view('/philosophy', 'philosophy');
 Route::view('/contact-us', 'contact-us');
 Route::view('/privacy-policy', 'privacy-policy');
 Route::view('/terms-and-conditions', 'terms-and-conditions');
+Route::view('/opportunities', 'opportunities');
+Route::view('/capabilities', 'capabilities');
 Route::view('/careers', 'careers');
 Route::view('/test', 'try-conic-gradient');
