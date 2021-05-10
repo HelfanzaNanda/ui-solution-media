@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 // Route::view('/menu', 'menu');
-// Route::view('/desktop-14', 'desktop-14');
+Route::view('/desktop-14', 'desktop-14');
 Route::view('/see-more', 'see-more');
 Route::view('/philosophy', 'philosophy');
 Route::view('/case-studies', 'case-studies');

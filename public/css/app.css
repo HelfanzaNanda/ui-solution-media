@@ -566,6 +566,13 @@ video {
 }
 
 @font-face {
+  font-family: Gilroy-Regular;
+
+  src: url(/assets/fonts/gilroy-bold/gilroy-bold-cufonfonts-webfont/Gilroy-Regular.woff)
+            format("woff");
+}
+
+@font-face {
   font-family: League-Spartan;
 
   src: url(/assets/fonts/league-spartan/LeagueSpartan-Bold.otf)
@@ -32749,15 +32756,15 @@ video {
   --tw-backdrop-sepia: sepia(100%);
 }
 
-.bg--dark-grey{
+.bg--dark-grey {
   background: #292929;
 }
 
-.focus\:bg--dark-grey:focus{
+.focus\:bg--dark-grey:focus {
   background: #292929;
 }
 
-.hover\:bg--dark-grey:hover{
+.hover\:bg--dark-grey:hover {
   background: #292929;
 }
 
@@ -32773,19 +32780,23 @@ video {
   font-family: Gilroy-Bold;
 }
 
+.font--gilroy-reg {
+  font-family: Gilroy-Regular;
+}
+
 .bg--dark {
   background-color: #1a1a1a;
 }
 
 .hr--grey {
-  border-top: 1px #C4C4C4 solid
+  border-top: 1px #c4c4c4 solid;
 }
 
-.text--grey-light{
+.text--grey-light {
   color: #666666;
 }
 
-.bg--dark-grey{
+.bg--dark-grey {
   background: #292929;
 }
 
@@ -32856,11 +32867,11 @@ video {
   background-image: linear-gradient(to bottom right, #3e3e3e, #0d0d0d);
 }
 
-.font--size--19{
+.font--size--19 {
   font-size: 19px;
 }
 
-.hr--vertical{
+.hr--vertical {
   border: none;
   border-left: 1px solid #fff;
   opacity: 17%;

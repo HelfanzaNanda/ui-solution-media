@@ -14,6 +14,11 @@
             format("woff");
     }
     @font-face {
+        font-family: Gilroy-Regular;
+        src: url(/assets/fonts/gilroy-bold/gilroy-bold-cufonfonts-webfont/Gilroy-Regular.woff)
+            format("woff");
+    }
+    @font-face {
         font-family: League-Spartan;
         src: url(/assets/fonts/league-spartan/LeagueSpartan-Bold.otf)
             format("woff");
@@ -21,7 +26,7 @@
 }
 
 @variants focus, hover {
-    .bg--dark-grey{
+    .bg--dark-grey {
         background: #292929;
     }
 }
@@ -38,19 +43,23 @@
     font-family: Gilroy-Bold;
 }
 
-.bg--dark {
-    background-color: #1a1a1a;
-    
-}
-.hr--grey {
-    border-top: 1px #C4C4C4 solid
+.font--gilroy-reg {
+    font-family: Gilroy-Regular;
 }
 
-.text--grey-light{
+.bg--dark {
+    background-color: #1a1a1a;
+}
+
+.hr--grey {
+    border-top: 1px #c4c4c4 solid;
+}
+
+.text--grey-light {
     color: #666666;
 }
 
-.bg--dark-grey{
+.bg--dark-grey {
     background: #292929;
 }
 
@@ -84,14 +93,14 @@
     background-image: linear-gradient(to bottom right, #3e3e3e, #0d0d0d);
 }
 
-.font--size--19{
+.font--size--19 {
     font-size: 19px;
 }
 
-.hr--vertical{
+.hr--vertical {
     border: none;
     border-left: 1px solid #fff;
     opacity: 17%;
     height: 100%;
-    width: 2px; 
+    width: 2px;
 }
