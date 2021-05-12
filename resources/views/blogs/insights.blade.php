@@ -1,13 +1,6 @@
-@extends('layouts.app')
-@push('styles')
-<style>
-
-</style>
-@endpush
-@section('content')
-
-<div class="flex modal flex-col blur-lg bg-black opacity-50 h-screen">
-    <main class="flex-1 overflow-y-hidden overflow-x-hidden">
+<div class="flex modal flex-col h-screen">
+    <div class="h-screen blur--effect w-screen relative"></div>
+    <main class="pl-20 flex-1 h-screen w-screen overflow-y-hidden top-0 left-0 overflow-x-hidden absolute">
         <section class="flex mt-20">
             <div class="w-96 relative">
                 <img class="m-3 preview-image" src="{{ asset('assets/images/blogs/1.png') }}"
@@ -27,10 +20,10 @@
                       
                 </div>
             </div>
-            <div class="mt-8 w-3/4">
-                <div class="flex gap-4">
+            <div class="mt-8 w-3/5">
+                <div class="flex gap-5">
                     <div><hr style="height: 199px; border-left: 3px solid #fff;"></div>
-                    <div class="w-3/5">
+                    <div class="w-full">
                         <div class="flex gap-8">
                             <div class="uppercase font--gilroy-reg text-white">DESIGN AND IDEATION</div>
                             <div class="uppercase font--gilroy-reg text-white">|</div>
@@ -63,10 +56,3 @@
         </section>
     </main>
 </div>
-@endsection
-
-@push('scripts')
-<script>
-
-</script>
-@endpush

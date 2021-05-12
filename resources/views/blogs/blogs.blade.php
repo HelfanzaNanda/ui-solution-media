@@ -49,24 +49,24 @@
                         
                     </div>
                     <div class="mb-10 mt-12 flex">
-                        <div class="border border-white rounded-lg flex">
-                            <img class="images" class="m-3" src="{{ asset('assets/images/blogs/1.png') }}"
+                        <div class="border border-white rounded-lg flex p-3">
+                            <img class="images" src="{{ asset('assets/images/blogs/1.png') }}"
                             style="width: 329px; height: 499px;">
                         </div>
                     </div>
                 </div>
                 <div class="w-2/4">
                     <div class="flex">
-                        <div class="border border-white rounded-lg flex">
-                            <img class="m-3" src="{{ asset('assets/images/blogs/2.png') }}"
+                        <div class="border border-white rounded-lg flex p-3">
+                            <img class="images" src="{{ asset('assets/images/blogs/2.png') }}"
                             style="width: 224px; height: 341px;">
                         </div>
                     </div>
                 </div>
-                <div class="w-2/4 self-end" style="margin-bottom: -144px;">
+                <div class="w-2/4 self-end" > {{-- harusnya di kasih ini style="margin-bottom: -144px;" --}}
                     <div class="flex">
-                        <div class="border relative border-white rounded-lg flex">
-                            <img class="m-3" src="{{ asset('assets/images/blogs/3.png') }}"
+                        <div class="border relative border-white rounded-lg flex p-3">
+                            <img class="images" src="{{ asset('assets/images/blogs/3.png') }}"
                             style="width: 216px; height: 328px;">
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                 <div class="">
                     <div class="flex">
                         <div class="rounded-lg flex">
-                            <img class="m-3" src="{{ asset('assets/images/blogs/4.png') }}"
+                            <img class="images" class="m-3" src="{{ asset('assets/images/blogs/4.png') }}"
                             style="width: 100%; height: 100%">
                         </div>
                     </div>
@@ -85,12 +85,14 @@
 </div>
 
 @include('blogs.insights')
+
 @endsection
 
 @push('scripts')
 <script>
-    $('.images').hover(function(e){
+    $('.images').mouseenter(function(e){
         e.preventDefault()
+        console.log('yayayyay');
         const image = $(this).attr('src')
         $('.preview-image').attr('src', image)
         $('.modal').addClass('active');
