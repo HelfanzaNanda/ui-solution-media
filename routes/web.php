@@ -26,11 +26,10 @@ Route::view('/desktop-50', 'desktop-50');
 Route::view('/capabilities', 'capabilities');
 Route::view('/careers', 'careers');
 Route::view('/blogs', 'blogs/blogs');
-Route::view('/insights', 'blogs/insights'); //belum
 Route::view('/contact-us', 'contact-us');
 Route::view('/privacy-policy', 'privacy-policy');
 Route::view('/terms-and-conditions', 'terms-and-conditions');
 Route::view('/opportunities', 'opportunities');
-Route::view('/blog-detail', 'blog-detail'); //belum
+Route::view('/blog-details', 'blog-details'); //belum
 Route::view('/terms-and-conditions-2', 'terms-and-conditions-2'); //belum
 Route::view('/test', 'try-conic-gradient');

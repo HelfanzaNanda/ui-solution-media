@@ -21,7 +21,7 @@
                     <h1 class="text-white text-7xl font--gilroy-bold">
                         Terms and Conditions
                     </h1>
-                    <h5 class="text-white text-opacity-40 text-xl my-5" style="font-size: 18px;">
+                    <h5 class="text-white text-opacity-40 text-xl mt-5" style="font-size: 18px;">
                         for world-class brands to make your products to live for world-class brands to make your
                         products to live for world-class brands to make your products to
                     </h5>
@@ -29,9 +29,9 @@
             </div>
         </section>
 
-        <section class="p-20 bg--dark">
-            <div>
-                <p class="text-white text-opacity-40 mb-4 font--gilroy-bold">
+        <section class="p-10 bg--dark">
+            <div class="flex flex-col p-10 rounded-lg bg-white bg-opacity-10">
+                <p class="text-white text-opacity-60 mb-4 font--gilroy-bold">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique molestie amet, sit amet. Sapien
                     mauris elementum sapien id vitae amet, sollicitudin est id. Bibendum lacus dolor libero risus.
                     Lectus ultricies venenatis cursus eget eleifend egestas dapibus. Scelerisque cras blandit purus
@@ -63,7 +63,7 @@
                     tortor, orci, nibh non accumsan enim. Dapibus phasellus proin sem pulvinar purus felis, aliquam. A,
                     ac ut aliquet consectetur nec integer duis.
                 </p>
-                <p class="text-white text-opacity-40 mb-4 font--gilroy-bold">
+                <p class="text-white text-opacity-60 mb-4 font--gilroy-bold">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique molestie amet, sit amet. Sapien
                     mauris elementum sapien id vitae amet, sollicitudin est id. Bibendum lacus dolor libero risus.
                     Lectus ultricies venenatis cursus eget eleifend egestas dapibus. Scelerisque cras blandit purus

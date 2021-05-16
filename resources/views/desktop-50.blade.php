@@ -16,12 +16,13 @@
 
     <main class="flex-1 overflow-y-auto bg-gray-50 overflow-x-auto overflow-x-hidden">
         <section class="bg--dark p-20">
-            <div class="flex flex-col ml-52">
+            <div class="flex flex-col ml-40">
                 <div class="flex items-center space-x-2">
                     <h4 class="text-white font--gilroy-bold opacity-50" style="font-size: 50px;">01</h4>
                     <hr class="w-80" style="border: 1px solid #5C5C5C">
                 </div>
-                <h1 class="text-white font--gilroy-bold -mr-36 leading-none" style="font-size: 220px">Case Study</h1>
+                <h1 class="text-white font--gilroy-bold -mr-36 leading-none" style="font-size: 220px">Case Study
+                </h1>
                 <div class="flex">
                     <div class="w-1/2">
                         <p class="text-white opacity-60">
@@ -32,7 +33,8 @@
                 </div>
             </div>
             <div class="flex justify-end">
-                <h1 class="text-white font--gilroy-bold opacity-30 leading-none" style="font-size: 400px;">01</h1>
+                <h1 class="text-white font--gilroy-bold opacity-30 leading-none -mr-28" style="font-size: 400px;">01
+                </h1>
             </div>
             <div class="flex justify-center">
                 <a href="" class="-mt-20">
@@ -42,7 +44,7 @@
         </section>
         <section class="p-20"
             style="background-image: url({{ asset('assets/images/bg.png') }}); height:140%; background-position: center; background-repeat: no-repeat; background-size: cover;">
-            <div class="flex flex-col mt-20 space-y-10">
+            <div class="flex flex-col space-y-10">
                 <img src="{{ asset('assets/images/search.png') }}" alt="" class="mx-auto">
                 <h1 class="text-white font--gilroy-bold leading-none text-center" style="font-size: 90px">Case Study
                 </h1>
@@ -54,7 +56,7 @@
                     brands to make your products to live for world-class brands to
                 </h4>
             </div>
-            <div class="flex justify-center space-x-1 mt-60">
+            <div class="flex justify-center space-x-1 mt-40">
                 <div class="w-1/3">
 
                 </div>
@@ -79,7 +81,7 @@
             </div>
         </section>
         <section class="bg--dark p-20">
-            <div class="flex flex-col ml-52">
+            <div class="flex flex-col ml-40">
                 <div class="flex items-center space-x-2">
                     <h4 class="text-white font--gilroy-bold opacity-50" style="font-size: 50px;">02</h4>
                     <hr class="w-80" style="border: 1px solid #5C5C5C">
@@ -95,7 +97,8 @@
                 </div>
             </div>
             <div class="flex justify-end">
-                <h1 class="text-white font--gilroy-bold opacity-30 leading-none" style="font-size: 400px;">02</h1>
+                <h1 class="text-white font--gilroy-bold opacity-30 leading-none -mr-28" style="font-size: 400px;">02
+                </h1>
             </div>
             <div class="flex justify-center">
                 <a href="" class="-mt-20">
@@ -105,7 +108,7 @@
         </section>
         <section class="p-20"
             style="background-image: url({{ asset('assets/images/bg.png') }}); height:140%; background-position: center; background-repeat: no-repeat; background-size: cover;">
-            <div class="flex flex-col mt-20 space-y-10">
+            <div class="flex flex-col space-y-10">
                 <img src="{{ asset('assets/images/calendar.png') }}" alt="" class="mx-auto">
                 <h1 class="text-white font--gilroy-bold leading-none text-center" style="font-size: 90px">
                     Planning
@@ -118,7 +121,7 @@
                     brands to make your products to live for world-class brands to
                 </h4>
             </div>
-            <div class="flex justify-center space-x-1 mt-60">
+            <div class="flex justify-center space-x-1 mt-40">
                 <div class="w-1/3">
 
                 </div>
@@ -143,7 +146,7 @@
             </div>
         </section>
         <section class="bg--dark p-20">
-            <div class="flex flex-col ml-52">
+            <div class="flex flex-col ml-40">
                 <div class="flex items-center space-x-2">
                     <h4 class="text-white font--gilroy-bold opacity-50" style="font-size: 50px;">03</h4>
                     <hr class="w-80" style="border: 1px solid #5C5C5C">
@@ -159,7 +162,8 @@
                 </div>
             </div>
             <div class="flex justify-end">
-                <h1 class="text-white font--gilroy-bold opacity-30 leading-none" style="font-size: 400px;">03</h1>
+                <h1 class="text-white font--gilroy-bold opacity-30 leading-none -mr-28" style="font-size: 400px;">03
+                </h1>
             </div>
             <div class="flex justify-center">
                 <a href="" class="-mt-20">
@@ -169,7 +173,7 @@
         </section>
         <section class="p-20"
             style="background-image: url({{ asset('assets/images/bg.png') }}); height:140%; background-position: center; background-repeat: no-repeat; background-size: cover;">
-            <div class="flex flex-col mt-20 space-y-10">
+            <div class="flex flex-col space-y-10">
                 <img src="{{ asset('assets/images/empty-files.png') }}" alt="" class="mx-auto">
                 <h1 class="text-white font--gilroy-bold leading-none text-center" style="font-size: 90px">
                     Research
@@ -182,7 +186,7 @@
                     brands to make your products to live for world-class brands to
                 </h4>
             </div>
-            <div class="flex justify-center space-x-1 mt-60">
+            <div class="flex justify-center space-x-1 mt-40">
                 <div class="w-1/3">
 
                 </div>
@@ -207,7 +211,7 @@
             </div>
         </section>
         <section class="bg--dark p-20">
-            <div class="flex flex-col ml-52">
+            <div class="flex flex-col ml-40">
                 <div class="flex items-center space-x-2">
                     <h4 class="text-white font--gilroy-bold opacity-50" style="font-size: 50px;">04</h4>
                     <hr class="w-80" style="border: 1px solid #5C5C5C">
@@ -223,7 +227,8 @@
                 </div>
             </div>
             <div class="flex justify-end">
-                <h1 class="text-white font--gilroy-bold opacity-30 leading-none" style="font-size: 400px;">04</h1>
+                <h1 class="text-white font--gilroy-bold opacity-30 leading-none -mr-28" style="font-size: 400px;">04
+                </h1>
             </div>
             <div class="flex justify-center">
                 <a href="" class="-mt-20">
@@ -233,7 +238,7 @@
         </section>
         <section class="p-20"
             style="background-image: url({{ asset('assets/images/bg.png') }}); height:140%; background-position: center; background-repeat: no-repeat; background-size: cover;">
-            <div class="flex flex-col mt-20 space-y-10">
+            <div class="flex flex-col space-y-10">
                 <img src="{{ asset('assets/images/computer.png') }}" alt="" class="mx-auto">
                 <h1 class="text-white font--gilroy-bold leading-none text-center" style="font-size: 90px">
                     Development
@@ -246,7 +251,7 @@
                     brands to make your products to live for world-class brands to
                 </h4>
             </div>
-            <div class="flex justify-center space-x-1 mt-60">
+            <div class="flex justify-center space-x-1 mt-40">
                 <div class="w-1/3">
 
                 </div>
@@ -271,7 +276,7 @@
             </div>
         </section>
         <section class="bg--dark p-20">
-            <div class="flex flex-col ml-52">
+            <div class="flex flex-col ml-40">
                 <div class="flex items-center space-x-2">
                     <h4 class="text-white font--gilroy-bold opacity-50" style="font-size: 50px;">05</h4>
                     <hr class="w-80" style="border: 1px solid #5C5C5C">
@@ -287,7 +292,8 @@
                 </div>
             </div>
             <div class="flex justify-end">
-                <h1 class="text-white font--gilroy-bold opacity-30 leading-none" style="font-size: 400px;">05</h1>
+                <h1 class="text-white font--gilroy-bold opacity-30 leading-none -mr-28" style="font-size: 400px;">05
+                </h1>
             </div>
             <div class="flex justify-center">
                 <a href="" class="-mt-20">
@@ -297,7 +303,7 @@
         </section>
         <section class="p-20"
             style="background-image: url({{ asset('assets/images/bg.png') }}); height:140%; background-position: center; background-repeat: no-repeat; background-size: cover;">
-            <div class="flex flex-col mt-20 space-y-10">
+            <div class="flex flex-col space-y-10">
                 <img src="{{ asset('assets/images/succes.png') }}" alt="" class="mx-auto">
                 <h1 class="text-white font--gilroy-bold leading-none text-center" style="font-size: 90px">
                     Deployment
@@ -310,7 +316,7 @@
                     brands to make your products to live for world-class brands to
                 </h4>
             </div>
-            <div class="flex justify-center space-x-1 mt-60">
+            <div class="flex justify-center space-x-1 mt-40">
                 <div class="w-1/3">
 
                 </div>

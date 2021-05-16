@@ -15,23 +15,47 @@
     </div>
 
     <main class="flex-1 overflow-y-auto bg--dark overflow-x-hidden">
-        <section class="px-20 pt-20 flex flex-col">
-            <div class="flex">
-                <div class="w-2/3 mt-20">
-                    <h1 class="text-white text-7xl font--gilroy-bold">
-                        Terms and Conditions
-                    </h1>
-                    <h5 class="text-white text-opacity-40 text-xl my-5" style="font-size: 18px;">
-                        for world-class brands to make your products to live for world-class brands to make your
-                        products to live for world-class brands to make your products to
-                    </h5>
+        <section class="p-10 pt-32 bg--dark flex flex-col space-y-20">
+            <div class="flex p-10 rounded-lg bg-white bg-opacity-10 space-x-20">
+                <div class="w-1/2">
+                    <img src="{{ asset('assets/images/blogs/blog-detail.png') }}" alt="">
+                </div>
+                <div class="w-1/2 space-y-5">
+                    <button class="uppercase bg-white bg-opacity-10 py-2 px-10 rounded-md text-white text-opacity-60">
+                        Color Design
+                    </button>
+                    <h2 class="font--gilroy-bold text-white leading-none" style="font-size: 55px;">
+                        Build Extraordinary products
+                    </h2>
+                    <div class="flex space-x-5">
+                        <div class="flex p-5 bg--dark rounded-xl">
+                            <i class="fas fa-heart text-3xl text-red-500 m-auto"></i>
+                        </div>
+                        <div class="flex p-5 bg--dark rounded-xl">
+                            <i class="fas fa-comment-alt text-3xl text-white m-auto"></i>
+                        </div>
+                        <div class="flex p-5 bg--dark rounded-xl">
+                            <i class="fas fa-share-alt text-3xl text-white m-auto"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-white text-opacity-60" style="font-size: 18px;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique molestie amet, sit
+                            amet. Sapien mauris elementum sapien id vitae amet, sollicitudin est id. Bibendum lacus
+                            dolor libero risus. Lectus ultricies venenatis cursus eget eleifend egestas dapibus.
+                            Scelerisque cras blandit purus amet, vitae dui vel. Cursus leo justo pulvinar aenean
+                            pharetra senectus. Suspendisse vulputate amet blandit nibh. Magna id nulla elementum eu.
+                            Amet vitae nisl tincidunt bibendum lectus id donec. Eu velit quis faucibus eget
+                            porttitor integer commodo. Porta quis proin sodales cras enim. Ultrices aliquet
+                            pellentesque id lorem nisi, pretium. Nulla sit sed auctor interdum diam ipsum, praesent
+                            mi. Pulvinar urna tincidunt ultrices consectetur ultrices. Nulla ornare quis viverra
+                            orci. Vel purus risus, turpis augue a. Arcu nisl tortor, orci, nibh non.
+                        </h4>
+                    </div>
                 </div>
             </div>
-        </section>
-
-        <section class="p-20 bg--dark">
-            <div>
-                <p class="text-white text-opacity-40 mb-4 font--gilroy-bold">
+            <div class="flex flex-col p-10 rounded-lg bg-white bg-opacity-10">
+                <p class="text-white text-opacity-60 mb-4 font--gilroy-bold">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique molestie amet, sit amet. Sapien
                     mauris elementum sapien id vitae amet, sollicitudin est id. Bibendum lacus dolor libero risus.
                     Lectus ultricies venenatis cursus eget eleifend egestas dapibus. Scelerisque cras blandit purus
@@ -63,7 +87,7 @@
                     tortor, orci, nibh non accumsan enim. Dapibus phasellus proin sem pulvinar purus felis, aliquam. A,
                     ac ut aliquet consectetur nec integer duis.
                 </p>
-                <p class="text-white text-opacity-40 mb-4 font--gilroy-bold">
+                <p class="text-white text-opacity-60 mb-4 font--gilroy-bold">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique molestie amet, sit amet. Sapien
                     mauris elementum sapien id vitae amet, sollicitudin est id. Bibendum lacus dolor libero risus.
                     Lectus ultricies venenatis cursus eget eleifend egestas dapibus. Scelerisque cras blandit purus
@@ -80,20 +104,7 @@
                     justo pulvinar aenean pharetra senectus. Suspendisse vulputate amet blandit nibh. Magna id nulla
                     elementum eu. Amet vitae nisl tincidunt bibendum lectus id donec. Eu velit quis faucibus eget
                     porttitor integer commodo. Porta quis proin sodales cras enim. Ultrices aliquet pellentesque id
-                    lorem nisi, pretium. Nulla sit sed auctor interdum diam ipsum, praesent mi. Pulvinar urna tincidunt
-                    ultrices consectetur ultrices. Nulla ornare quis viverra orci. Vel purus risus, turpis augue a. Arcu
-                    nisl tortor, orci, nibh non accumsan enim. Dapibus phasellus proin sem pulvinar purus felis,
-                    aliquam. A, ac ut aliquet consectetur nec integer duis.Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Tristique molestie amet, sit amet. Sapien mauris elementum sapien id vitae amet,
-                    sollicitudin est id. Bibendum lacus dolor libero risus. Lectus ultricies venenatis cursus eget
-                    eleifend egestas dapibus. Scelerisque cras blandit purus amet, vitae dui vel. Cursus leo justo
-                    pulvinar aenean pharetra senectus. Suspendisse vulputate amet blandit nibh. Magna id nulla elementum
-                    eu. Amet vitae nisl tincidunt bibendum lectus id donec. Eu velit quis faucibus eget porttitor
-                    integer commodo. Porta quis proin sodales cras enim. Ultrices aliquet pellentesque id lorem nisi,
-                    pretium. Nulla sit sed auctor interdum diam ipsum, praesent mi. Pulvinar urna tincidunt ultrices
-                    consectetur ultrices. Nulla ornare quis viverra orci. Vel purus risus, turpis augue a. Arcu nisl
-                    tortor, orci, nibh non accumsan enim. Dapibus phasellus proin sem pulvinar purus felis, aliquam. A,
-                    ac ut aliquet consectetur nec integer duis.
+                    lorem nisi, pretium. Nulla sit sed auctor int
                 </p>
             </div>
         </section>
