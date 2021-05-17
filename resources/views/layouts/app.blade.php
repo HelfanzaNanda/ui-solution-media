@@ -14,32 +14,15 @@
         body {
             font-family: 'Poppins', sans-serif;
         }
-
-        ::-webkit-scrollbar {
-            width: 2px;
-        }
-
-        ::-webkit-scrollbar-track {
-            box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.5);
-            /* background-color: rgba(255, 255, 255, 0.5); */
-            border-radius: 10px;
-            width: 2px;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background-color: rgba(43, 43, 43, 1);
-            outline: 1px rgba(255, 255, 255, 0.5);
-            border-radius: 10px;
-            width: 2px;
-        }
     </style>
     @stack('styles')
 </head>
 
 <body>
     @yield('content')
-    
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     @stack('scripts')
 </body>
 

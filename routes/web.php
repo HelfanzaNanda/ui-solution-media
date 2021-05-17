@@ -30,6 +30,6 @@ Route::view('/contact-us', 'contact-us');
 Route::view('/privacy-policy', 'privacy-policy');
 Route::view('/terms-and-conditions', 'terms-and-conditions');
 Route::view('/opportunities', 'opportunities');
-Route::view('/blog-details', 'blog-details'); //belum
-Route::view('/terms-and-conditions-2', 'terms-and-conditions-2'); //belum
+Route::view('/blog-details', 'blog-details');
+Route::view('/terms-and-conditions-2', 'terms-and-conditions-2');
 Route::view('/test', 'try-conic-gradient');
