@@ -33,3 +33,4 @@ Route::view('/opportunities', 'opportunities');
 Route::view('/blog-details', 'blog-details');
 Route::view('/terms-and-conditions-2', 'terms-and-conditions-2');
 Route::view('/test', 'try-conic-gradient');
+Route::view('/test-2', 'try-conic-gradient-2');
