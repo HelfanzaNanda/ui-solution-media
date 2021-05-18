@@ -644,13 +644,13 @@
             </div>
             <div class="flex justify-between items-center px-20 space-x-20 mr-60 -mt-10">
                 <div class="p-2 rounded border border-white">
-                    <img src="{{ asset('assets/images/blogs/blog-1.png') }}" alt="" class="rounded">
+                    <img class="images" src="{{ asset('assets/images/blogs/blog-1.png') }}" alt="" class="rounded">
                 </div>
                 <div class="p-2 rounded border border-white">
-                    <img src="{{ asset('assets/images/blogs/blog-2.png') }}" alt="" class="rounded">
+                    <img class="images" src="{{ asset('assets/images/blogs/blog-2.png') }}" alt="" class="rounded">
                 </div>
                 <div class="p-2 rounded border border-white">
-                    <img src="{{ asset('assets/images/blogs/blog-3.png') }}" alt="" class="rounded">
+                    <img class="images" src="{{ asset('assets/images/blogs/blog-3.png') }}" alt="" class="rounded">
                 </div>
             </div>
             <div class="flex justify-between items-end -mt-10 px-20 mb-10">
@@ -872,10 +872,24 @@
         <x-footer />
     </main>
 </div>
+
+@include('blogs.insights')
+
 @endsection
 
 @push('scripts')
 <script>
+    $('.images').mouseenter(function(e){
+        e.preventDefault()
+        console.log('yayayyay');
+        const image = $(this).attr('src')
+        $('.preview-image').attr('src', image)
+        $('.modal').addClass('active');
+    })
 
+    $(document).on('click', '.modal', function (e) {  
+        e.preventDefault();
+        $('.modal').removeClass('active');
+    })
 </script>
 @endpush
