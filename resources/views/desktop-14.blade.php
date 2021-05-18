@@ -629,13 +629,130 @@
                 </div>
             </div>
         </section>
-        <section class="p-20 flex flex-col"
+        <section class="flex flex-col min-h-screen w-screen"
             style="background: linear-gradient(122.56deg, #3E3E3E -6.12%, #0D0D0D 108.94%);">
-
+            <div class="flex p-20 justify-between items-center -ml-10 mr-20">
+                <div>
+                    <img src="{{ asset('assets/images/hovertoview.png') }}" alt="">
+                </div>
+                <div>
+                    <h1 class="text-white font--gilroy-bold leading-none" style="font-size: 120px;">
+                        Blogs
+                    </h1>
+                </div>
+            </div>
+            <div class="flex justify-between items-center px-20 space-x-20 mr-60 -mt-10">
+                <div class="p-2 rounded border border-white">
+                    <img src="{{ asset('assets/images/blogs/blog-1.png') }}" alt="" class="rounded">
+                </div>
+                <div class="p-2 rounded border border-white">
+                    <img src="{{ asset('assets/images/blogs/blog-2.png') }}" alt="" class="rounded">
+                </div>
+                <div class="p-2 rounded border border-white">
+                    <img src="{{ asset('assets/images/blogs/blog-3.png') }}" alt="" class="rounded">
+                </div>
+            </div>
+            <div class="flex justify-between items-end -mt-10 px-20 mb-10">
+                <div class="w-2/3 flex">
+                    <h6 class="text-white text-base leading-none">connect@us.solutiommedia</h6>
+                    <h6 class="text-white text-base leading-none">+91 8123632783</h6>
+                </div>
+                <div class="w-1/3 flex flex-col">
+                    <div class="flex justify-end mr-10 mb-5">
+                        <a href="" class="">
+                            <img src="{{ asset('assets/images/scroll.png') }}" alt="">
+                        </a>
+                    </div>
+                    <div class="flex space-x-2 mt-5">
+                        <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
+                        </div>
+                        <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
+                        </div>
+                        <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
+                        </div>
+                        <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
+                        </div>
+                        <div class="flex py-5 border-b-2 border-white w-1/5">
+                            <i class="fas fa-envelope text-white text-2xl mx-auto self-end"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="p-20 flex flex-col"
+        <section class="p-20 flex flex-col min-h-screen w-screen"
             style="background: linear-gradient(122.56deg, #3E3E3E -6.12%, #0D0D0D 108.94%);">
-
+            <div class="flex mb-10 justify-center">
+                <h1 class="text-white font--gilroy-bold leading-none" style="font-size: 65px;">
+                    What our <span class="stroke--text-white" style="font-size: 65px;">Clients say</span>
+                </h1>
+            </div>
+            <div class="flex">
+                <div class="w-1/3 flex ml-20">
+                    <div class="self-end">
+                        <img src="{{ asset('assets/images/client/client-7.png') }}" alt="">
+                    </div>
+                    <div class="self-center">
+                        <img src="{{ asset('assets/images/client/client-2.png') }}" alt="">
+                    </div>
+                    <div class="self-center -mb-40">
+                        <img src="{{ asset('assets/images/client/client-3.png') }}" alt="">
+                    </div>
+                </div>
+                <div class="w-1/3">
+                    <img src="{{ asset('assets/images/client/client-1.png') }}" alt="" class="w-80 h-auto m-auto">
+                </div>
+                <div class="w-1/3 flex mr-20justify-center ml-10">
+                    <div class="self-end justify-center">
+                        <img src="{{ asset('assets/images/client/client-4.png') }}" alt="" class="-mt-28">
+                    </div>
+                    <div class="self-center">
+                        <img src="{{ asset('assets/images/client/client-5.png') }}" alt="">
+                    </div>
+                    <div class="flex flex-col items-center justify-evenly">
+                        <img src="{{ asset('assets/images/client/client-8.png') }}" alt="" class="w-16 h-auto">
+                        <img src="{{ asset('assets/images/client/client-6.png') }}" alt="" class="-mb-32">
+                    </div>
+                </div>
+            </div>
+            <div class="flex space-x-10 my-10">
+                <div class="w-1/5 flex justify-end">
+                    <img src="{{ asset('assets/images/arrow-left.png') }}" alt="" class="w-8 h-8">
+                </div>
+                <div class="w-3/5 space-y-10">
+                    <h4 class="text-white font--gilroy-bold text-3xl text-center">
+                        Lectus arcu bibendum at varius. Adipiscing diam donec adipiscing tristique.
+                    </h4>
+                    <h5 class="text-white font--gilroy-bold text-lg text-center">
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-purple-700">Kerry
+                            Johnes</span> -
+                        Some Company
+                    </h5>
+                </div>
+                <div class="w-1/5 flex">
+                    <img src="{{ asset('assets/images/arrow-right.png') }}" alt="" class="w-8 h-8">
+                </div>
+            </div>
+            <div class="flex space-x-1 -mb-10">
+                <div class="w-1/3"></div>
+                <div class="w-1/3 flex justify-center">
+                    <a href="" class="">
+                        <img src="{{ asset('assets/images/scroll.png') }}" alt="">
+                    </a>
+                </div>
+                <div class="w-1/3 flex space-x-2">
+                    <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
+                    </div>
+                    <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
+                    </div>
+                    <div class="flex py-5 border-b-2 border-white w-1/5">
+                        <i class="fas fa-cube text-white text-2xl mx-auto self-end"></i>
+                    </div>
+                    <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
+                    </div>
+                    <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
+                    </div>
+                </div>
+            </div>
         </section>
         <x-footer />
     </main>
