@@ -654,7 +654,7 @@
                 </div>
             </div>
             <div class="flex justify-between items-end -mt-10 px-20 mb-10">
-                <div class="w-2/3 flex">
+                <div class="w-2/3 flex space-x-10">
                     <h6 class="text-white text-base leading-none">connect@us.solutiommedia</h6>
                     <h6 class="text-white text-base leading-none">+91 8123632783</h6>
                 </div>
