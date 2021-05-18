@@ -798,6 +798,77 @@
                 </div>
             </div>
         </section>
+        <section class="flex flex-col min-h-screen w-screen" style="background-image: url({{ asset('assets/images/bg.png') }}); background-position:
+        center; background-repeat: no-repeat; background-size: cover;">
+            <div class="flex p-20 ml-20">
+                <div class="w-1/2 space-y-5">
+                    <h1 class="text-white font--gilroy-bold text-7xl leading-none">
+                        Connect
+                    </h1>
+                    <h4 class="text-white text-lg">
+                        for world-class brands to make your products to live for world-class brands to make your
+                        products to
+                        live for world-class brands to make your products to
+                    </h4>
+                    <form action="">
+                        <div class="flex flex-col space-y-7 mr-20 mt-10">
+                            <input type="text"
+                                class="bg-white bg-opacity-20 py-3 px-5 focus:outline-none focus:ring focus:border-white rounded placeholder-white text-white"
+                                placeholder="Full Name">
+                            <input type="text"
+                                class="bg-white bg-opacity-20 py-3 px-5 focus:outline-none focus:ring focus:border-white rounded placeholder-white text-white"
+                                placeholder="Enter your mail-id">
+                            <input type="text"
+                                class="bg-white bg-opacity-20 py-3 px-5 focus:outline-none focus:ring focus:border-white rounded placeholder-white text-white"
+                                placeholder="Phone Number">
+                            <input type="text"
+                                class="bg-white bg-opacity-20 py-3 px-5 focus:outline-none focus:ring focus:border-white rounded placeholder-white text-white"
+                                placeholder="Reason to connect">
+                            <button
+                                class="bg-white py-3 text-gray-700 hover:bg-gray-500 hover:text-white transition duration-300 rounded">
+                                SignUp
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="w-1/2 flex flex-col items-center">
+                    <div class="flex z-0">
+                        <h1 class="stroke--text-white leading-none -mb-28 -ml-80 opacity-30" style="font-size: 140px;">
+                            Connect
+                    </div>
+                    </h1>
+                    <img src="{{ asset('assets/images/3d-man.png') }}" alt="" class="w-96 h-auto z-10">
+                    <div class="flex w-12 h-12 bg-white rounded-full self-end">
+                        <i class="fab fa-whatsapp m-auto text-xl"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-between items-end px-10 mb-10">
+                <div class="w-2/3 flex space-x-10">
+                    <h6 class="text-white text-base leading-none">
+                        <i class="fas fa-envelope"></i>&ensp;connect@us.solutiommedia
+                    </h6>
+                    <h6 class="text-white text-base leading-none">
+                        <i class="fas fa-phone-alt"></i>&ensp;+91 8123632783
+                    </h6>
+                </div>
+                <div class="w-1/3 flex flex-col">
+                    <div class="flex space-x-2">
+                        <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
+                        </div>
+                        <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
+                        </div>
+                        <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
+                        </div>
+                        <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
+                        </div>
+                        <div class="flex py-5 border-b-2 border-white w-1/5">
+                            <i class="fas fa-envelope text-white text-2xl mx-auto self-end"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <x-footer />
     </main>
 </div>
