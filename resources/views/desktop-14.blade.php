@@ -18,6 +18,7 @@
             </div>
         </a>
         <div> <a href=""> <img src="{{ asset('assets/images/toggle.png') }}" alt="" class="h-12 w-12"> </a> </div>
+        {{-- <x-menubar /> --}}
     </div>
 
     <main class="flex-1 overflow-y-auto overflow-x-hidden">
@@ -750,6 +751,49 @@
                     <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
                     </div>
                     <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-col min-h-screen w-screen"
+            style="background: linear-gradient(122.56deg, #3E3E3E -6.12%, #0D0D0D 108.94%);">
+            <div class="flex flex-col mx-36 space-y-5 mt-20">
+                <h2 class="font--gilroy-bold text-white text-7xl text-center">Newsletter</h2>
+                <h4 class="text-gray-500 text-lg text-center leading-10">
+                    We are a UI/UX (user interface / user experience) design & development company. We have helped
+                    multiple clients from small medium businesses to big brands from various industry to create their
+                    website / mobile apps user experiences .
+                </h4>
+            </div>
+            <div class="flex px-20">
+                <div class="w-1/2 mt-40">
+                    <img src="{{ asset('assets/images/mailbox.png') }}" alt="" class="w-96 h-auto">
+                </div>
+                <div class="w-1/2 flex flex-col mr-20">
+                    <form action="" class="flex flex-col space-y-10 pt-20 pb-40">
+                        <input type="text"
+                            class="form-control py-3 px-5 placeholder-white text-white rounded focus:outline-none focus:ring focus:border-blue-500"
+                            placeholder="Full Name" style="background: #313131">
+                        <input type="text"
+                            class="form-control py-3 px-5 placeholder-white text-white rounded focus:outline-none focus:ring focus:border-blue-500"
+                            placeholder="Enter your mail-id" style="background: #313131">
+                        <button
+                            class="py-3 bg-white text-center font--gilroy-med text-gray-700 rounded hover:bg-gray-500 hover:text-white transition duration-300">SignUp</button>
+                    </form>
+                    <div class="flex justify-end -mr-20 -mt-20">
+                        <div class="w-2/3 flex space-x-2">
+                            <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
+                            </div>
+                            <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
+                            </div>
+                            <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
+                            </div>
+                            <div class="flex py-5 border-b-2 border-white opacity-20 w-1/5">
+                            </div>
+                            <div class="flex py-5 border-b-2 border-white w-1/5">
+                                <i class="fas fa-envelope text-white text-2xl mx-auto self-end"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
