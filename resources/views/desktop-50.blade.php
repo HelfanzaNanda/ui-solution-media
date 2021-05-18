@@ -15,6 +15,47 @@
     </div>
 
     <main class="flex-1 overflow-y-auto bg-gray-50 overflow-x-auto overflow-x-hidden">
+        <section class="flex flex-col py-10 space-y-20 min-h-screen w-screen" style="background: #1C1C1C">
+            <div class="flex flex-col px-20 my-auto -mb-20">
+                <h1 class="text-white font--gilroy-bold leading-none" style="font-size: 140px;">
+                    Our Process
+                </h1>
+                <h4 class="text-white text-opacity-50 text-xl w-3/5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis diam elementum arcu eu cras egestas ac
+                    adipiscing. Et arcu, elementum molestie sed bland
+                </h4>
+            </div>
+            <div class="flex">
+                <div class="w-1/3"></div>
+                <div class="w-1/3 flex justify-center">
+                    <div class="self-end">
+                        <img src="{{ asset('assets/images/scroll.png') }}" alt="">
+                    </div>
+                </div>
+                <div class="w-1/3 flex flex-col space-y-5">
+                    <div class="flex items-center text-white space-x-3 justify-end">
+                        <i class="fas fa-home"></i>
+                        <hr class="w-28 border-t border-white">
+                    </div>
+                    <div class="flex items-center text-white space-x-3 justify-end">
+                        <p class="font--gilroy-bold text-white text-opacity-30 text-lg">01</p>
+                        <hr class="w-20 border-t border-white border-opacity-30">
+                    </div>
+                    <div class="flex items-center text-white space-x-3 justify-end">
+                        <p class="font--gilroy-bold text-white text-opacity-30 text-lg">02</p>
+                        <hr class="w-20 border-t border-white border-opacity-30">
+                    </div>
+                    <div class="flex items-center text-white space-x-3 justify-end">
+                        <p class="font--gilroy-bold text-white text-opacity-30 text-lg">03</p>
+                        <hr class="w-20 border-t border-white border-opacity-30">
+                    </div>
+                    <div class="flex items-center text-white space-x-3 justify-end">
+                        <p class="font--gilroy-bold text-white text-opacity-30 text-lg">04</p>
+                        <hr class="w-20 border-t border-white border-opacity-30">
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="bg--dark p-20">
             <div class="flex flex-col ml-40">
                 <div class="flex items-center space-x-2">
