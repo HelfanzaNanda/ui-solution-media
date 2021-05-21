@@ -154,3 +154,10 @@
     height: 100%;
     width: 2px;
 }
+
+.text--gradient{
+	background: linear-gradient(to right, #020031 0%, #090035 0%, #2B045E 0%, #3E0578 0%, #7708BE 10%, #C80EEC 20%, #E839DE 25%, #F35AAA 40%, #F8668A 42%, #FFA290 45%, #FE8E68 50%, #FF8134 51%, #FFB97D 53%, #F7BD4F 55%, #F3C07A 57%, #EBD4C3 70%, #DEDFE3 90%, #D8E7F8 93%, #94D7FC 99%, rgba(0, 156, 233, 0.87) 97%, #0058AA 98%, #02205D 99%, #020031 100%);
+	background-clip:text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
