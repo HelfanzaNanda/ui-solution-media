@@ -5,31 +5,31 @@
 @layer base {
     @font-face {
         font-family: Gilroy-Bold;
-        src: url(/assets/fonts/gilroy-bold/gilroy-bold-cufonfonts-webfont/Gilroy-Bold.woff)
+        src: url(../assets/fonts/gilroy-bold/gilroy-bold-cufonfonts-webfont/Gilroy-Bold.woff)
             format("woff");
     }
     @font-face {
         font-family: Gilroy-Medium;
-        src: url(/assets/fonts/gilroy-bold/gilroy-bold-cufonfonts-webfont/Gilroy-Medium.woff)
+        src: url(../assets/fonts/gilroy-bold/gilroy-bold-cufonfonts-webfont/Gilroy-Medium.woff)
             format("woff");
     }
     @font-face {
         font-family: Gilroy-Regular;
-        src: url(/assets/fonts/gilroy-bold/gilroy-bold-cufonfonts-webfont/Gilroy-Regular.woff)
+        src: url(../assets/fonts/gilroy-bold/gilroy-bold-cufonfonts-webfont/Gilroy-Regular.woff)
             format("woff");
     }
     @font-face {
         font-family: League-Spartan;
-        src: url(/assets/fonts/league-spartan/LeagueSpartan-Bold.otf)
+        src: url(../assets/fonts/league-spartan/LeagueSpartan-Bold.otf)
             format("woff");
     }
     @font-face {
         font-family: Kollektif;
-        src: url(/assets/fonts/kollektif/Kollektif.ttf) format("tff");
+        src: url(../assets/fonts/kollektif/Kollektif.ttf) format("tff");
     }
     @font-face {
         font-family: Kollektif-Bold;
-        src: url(/assets/fonts/kollektif/Kollektif-Bold.ttf) format("tff");
+        src: url(../assets/fonts/kollektif/Kollektif-Bold.ttf) format("tff");
     }
 }
 
