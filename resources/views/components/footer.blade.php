@@ -1,19 +1,19 @@
-<section class="p-20 bg--footer">
-    <div class="flex flex-col text-center space-y-10 mt-10 -mb-20">
+<section class="m-container bg--footer pt-20 h-screen w-screen">
+    <div class="flex flex-col text-center space-y-10  -mb-20">
         <div class="flex flex-col space-y-3">
-            <h1 class="text-white text-7xl font--gilroy-bold">
+            <h1 class="text-white font--gilroy-bold" style="font-size: 300%">
                 Creativity + Efficiency
             </h1>
             <h5 class="text-white upsmrcase">
                 Developed in India With &ensp;<i class="fas fa-heart text-red-500"></i>
             </h5>
         </div>
-        <h6 class="text-gray-400" style="font-size: 18px;">
+        <h6 class="text-gray-400" style="font-size: 100%">
             We are a UI/UX (user interface / user experience) design & development company. We have helped
             multiple clients from small medium businesses to big brands from various industry to create
             their website / mobile apps user experiences.
         </h6>
-        <div class="flex justify-center space-x-10">
+        <div class="flex justify-center space-x-5">
             <div class="flex flex-col space-y-3">
                 <h3 class="text-gray-400 uppercase">Quick Links</h3>
                 <h3 class="text-white" style="font-weight: 500;">Home</h3>
