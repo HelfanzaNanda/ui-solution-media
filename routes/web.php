@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('desktop-50');
+    return view('desktop-14');
 });
 
 Route::view('/menu', 'menu'); //belum
@@ -28,9 +28,9 @@ Route::view('/careers', 'careers')->name('careers');
 Route::view('/blogs', 'blogs/blogs')->name('blogs');
 Route::view('/contact-us', 'contact-us')->name('contact-us');
 Route::view('/privacy-policy', 'privacy-policy')->name('privacy-policy');
-Route::view('/terms-and-conditions', 'terms-and-conditions')->name('term-conditions');
+Route::view('/terms-and-conditions', 'terms-and-conditions')->name('terms-conditions');
 Route::view('/opportunities', 'opportunities')->name('opportunities');
 Route::view('/blog-details', 'blog-details')->name('blog-details');
-Route::view('/terms-and-conditions-2', 'terms-and-conditions-2')->name('term-conditions-2');
+Route::view('/terms-and-conditions-2', 'terms-and-conditions-2')->name('terms-conditions-2');
 Route::view('/test', 'try-conic-gradient');
 Route::view('/test-2', 'try-conic-gradient-2');
