@@ -22,6 +22,7 @@
     <script type="text/javascript" src="{{asset('assets/gsap/MotionPathPlugin.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('assets/gsap/CustomEase.min.js')}}"></script>
     @stack('styles')
+	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
 </head>
 
 <body>

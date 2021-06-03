@@ -7,12 +7,7 @@
 @section('content')
 
 <div class="flex flex-col h-screen">
-    <div class="fixed px-10 top-0 left-0 z-20">
-        <div> <a href=""> <img src="{{ asset('assets/images/logo.png') }}" alt=""> </a> </div>
-    </div>
-    <div class="fixed px-20 top-0 right-0 py-10 z-20">
-        <div> <a href=""> <img src="{{ asset('assets/images/toggle.png') }}" alt="" class="h-12 w-12"> </a> </div>
-    </div>
+    @include('layouts.__menu')
 
     <main class="flex-1 overflow-y-auto bg--dark overflow-x-hidden">
         <section class="p-10 pt-32 bg--dark flex flex-col space-y-20">

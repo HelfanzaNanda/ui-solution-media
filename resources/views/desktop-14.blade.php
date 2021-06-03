@@ -36,6 +36,9 @@
             </div>
         </div>
     </div>
+
+
+
     <div style="position: fixed;left: 0;width: 100%;bottom: 0;z-index: 50">
         <div class="flex space-x-1 px-40">
             <div class="w-1/3"></div>
