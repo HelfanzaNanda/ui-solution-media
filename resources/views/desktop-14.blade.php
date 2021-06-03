@@ -17,7 +17,7 @@
 @section('content')
 
 <div class="">
-    <div class="fixed px-20 top-0 left-0 z-100" style="width: 100%;z-index: 200">
+    {{-- <div class="fixed px-20 top-0 left-0 z-100" style="width: 100%;z-index: 200">
         <div class="flex " style="justify-content: space-between;align-items: center;">
             <div class="">
                 <div> <a href=""> <img src="{{ asset('assets/images/logo.png') }}" alt=""> </a> </div>
@@ -31,11 +31,11 @@
                         </div>
                     </a>
                     <div> <a href=""> <img src="{{ asset('assets/images/toggle.png') }}" alt="" class="h-12 w-12"> </a> </div>
-                    {{-- <x-menubar /> --}}
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
+	@include('layouts.__menu')
 
 
 
@@ -76,6 +76,7 @@
             </div>
         </div>
     </div>
+	
     <main style="width: 100vw;overflow: hidden;height: 100vh" class="main">
         <section class="section section-1 w-screen h-screen overflow-x-hidden"
            style="background-image: url({{ asset('assets/images/bg.png') }}); background-position:

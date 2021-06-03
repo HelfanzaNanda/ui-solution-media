@@ -5,14 +5,36 @@
 </style>
 
 <div x-data="{ open: false }">
-	<div :class="{ 'hidden': open }" class="fixed px-10 top-0 left-0 z-20">
+	{{-- <div :class="{ 'hidden': open }" class="fixed px-10 top-0 left-0 z-20">
 		<div> <a href=""> <img src="{{ asset('assets/images/logo.png') }}" alt=""> </a> </div>
 	</div>
 	<div :class="{ 'hidden': open }" class="fixed px-20 top-0 right-0 py-10 z-20">
 		<div> <button  @click="open = true"> <img src="{{ asset('assets/images/toggle.png') }}" alt="" class="h-12 w-12"> </button> </div>
-	</div>
+	</div> --}}
+
+	<div :class="{ 'hidden': open }" class="fixed px-20 top-0 left-0" style="width: 100%; z-index: 999999 !important">
+        <div class="flex " style="justify-content: space-between;align-items: center;">
+            <div class="">
+                <div> <a href=""> <img src="{{ asset('assets/images/logo.png') }}" alt=""> </a> </div>
+            </div>
+            <div>
+                <div class="flex items-center space-x-5 ">
+					@if (request()->is('desktop-14'))
+						<a href="">
+							<div class="py-2 px-10 border rounded-full border-white text-white hover:bg-white hover:text-gray-600 transition duration-300"> <p>Get in Touch</p> </div>
+						</a>	
+					@endif
+                    <div> <button @click="open = true"> <img src="{{ asset('assets/images/toggle.png') }}" alt="" class="h-12 w-12"> </button> </div>
+                    {{-- <x-menubar /> --}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 	
-	<section x-show="open" class="bg--dark h-screen w-screen relative z-30 overflow-x-hidden">
+	<section x-show="open" class="bg--dark h-screen w-screen relative overflow-x-hidden" style="z-index: 999999">
 		<div class="flex justify-between items-center px-20">
 			<img src="{{ asset('assets/images/logo.png') }}" alt="">
 			<h4 class="font--gilroy-reg text-white" style="font-size: 19px;">Contact Us</h4>
@@ -20,6 +42,9 @@
 		<div class="flex justify-end">
 			<h1 class=" stroke--text-dark leading-none -mr-10">Menu</h1>
 		</div>
+
+
+
 		<div class="flex flex-nowrap overflow-x-auto ml-28 -mt-40 menu--scroll">
 			<div class="min-w-max flex-col p-10">
 				<img src="{{ asset('assets/images/menu/menu-1.png') }}" alt="" class="rounded-xl"
