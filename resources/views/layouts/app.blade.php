@@ -15,6 +15,12 @@
             font-family: 'Poppins', sans-serif;
         }
     </style>
+    
+    <script type="text/javascript" src="{{asset('assets/gsap/gsap.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/gsap/ScrollTrigger.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/gsap/ScrollToPlugin.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/gsap/MotionPathPlugin.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/gsap/CustomEase.min.js')}}"></script>
     @stack('styles')
 </head>
 
