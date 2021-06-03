@@ -1,15 +1,17 @@
 @extends('layouts.app')
 @push('styles')
 <style>
-    .m-container{
+    .m-container {
 
-    padding-left: 10rem;
-    padding-right: 10rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
     }
-    .icon-page{
+
+    .icon-page {
         font-size: 120%;
     }
-    .section{
+
+    .section {
         overflow: hidden;
     }
 </style>
@@ -30,13 +32,13 @@
                             <p>Get in Touch</p>
                         </div>
                     </a>
-                    <div> <a href=""> <img src="{{ asset('assets/images/toggle.png') }}" alt="" class="h-12 w-12"> </a> </div>
-                    {{-- <x-menubar /> --}}
+                    <div> <a href=""> <img src="{{ asset('assets/images/toggle.png') }}" alt="" class="h-12 w-12"> </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
+    @include('layouts.__menu')
 
 
     <div style="position: fixed;left: 0;width: 100%;bottom: 0;z-index: 50">
@@ -49,7 +51,7 @@
             </div>
             <div class="w-1/3 flex space-x-2 pt-7 pb-5 px-10">
                 <div class="flex py-5 border-b-2 border-white w-1/5">
-                    <i class="fa fa-home text-white icon-page mx-auto self-end" ></i>
+                    <i class="fa fa-home text-white icon-page mx-auto self-end"></i>
                 </div>
                 <div class="flex py-5 border-b-2 border-white w-1/5">
                     <i class="fa fa-city text-white icon-page mx-auto self-end"></i>
@@ -77,11 +79,10 @@
         </div>
     </div>
     <main style="width: 100vw;overflow: hidden;height: 100vh" class="main">
-        <section class="section section-1 w-screen h-screen overflow-x-hidden"
-           style="background-image: url({{ asset('assets/images/bg.png') }}); background-position:
+        <section class="section section-1 w-screen h-screen overflow-x-hidden" style="background-image: url({{ asset('assets/images/bg.png') }}); background-position:
             center; background-repeat: no-repeat; background-size: cover;position: relative;z-index: 1;">
             <div class="content">
-                <div class=" pt-20  " style="padding-left: 10%"> 
+                <div class=" pt-20  " style="padding-left: 10%">
                     <h1 class="stroke--text-white leading-none mt-10 " style="font-size: 700%">Amazing</h1>
                     <h1 class="text-white font--gilroy-bold leading-none -mr-5" style="font-size: 800%;">
                         <span class="font-bold">Creativity</span> <span class="font--gilroy-reg">+ Vision</span>
@@ -127,9 +128,9 @@
                     live for world-class brands to
                 </h4>
             </div>
-            
+
         </section>
-         <section class="section section-3 m-container space-y-20 h-screen w-screen" style="background: #131313">
+        <section class="section section-3 m-container space-y-20 h-screen w-screen" style="background: #131313">
             <div class="flex">
                 <div class="w-1/4">
                     <img src="{{ asset('assets/images/service1.png') }}" alt="" style="width: 100%">
@@ -139,15 +140,15 @@
             <div class="flex space-x-10">
                 <div class="w-3/5">
                     <h1 class="text-white font--gilroy-bold leading-none" style="font-size: 600%;">
-                        Services we <br/><span class="stroke--text-white" style="font-size: 90%;">Provide</span>
+                        Services we <br /><span class="stroke--text-white" style="font-size: 90%;">Provide</span>
                     </h1>
                     <h4 class="text-white leading-10" style="font-size: 100%">
                         for world-class brands to make your products to live for world-class brands to make your
                         products to live for world-class brands to make your products to
                     </h4>
                 </div>
-                <div class="w-2/5 self-end" >
-                    <img src="{{ asset('assets/images/service.png') }}" alt="" >
+                <div class="w-2/5 self-end">
+                    <img src="{{ asset('assets/images/service.png') }}" alt="">
                 </div>
             </div>
         </section>
@@ -195,10 +196,10 @@
                 </div>
             </div>
         </section>
-                <section class="section section-6 m-container pt-20  h-screen w-screen" style="background: #DFAF53">
+        <section class="section section-6 m-container pt-20  h-screen w-screen" style="background: #DFAF53">
             <div class="flex my-20 ">
                 <div class="w-2/5 px-10">
-                    <img src="{{ asset('assets/images/seo.png') }}" alt="" >
+                    <img src="{{ asset('assets/images/seo.png') }}" alt="">
                 </div>
                 <div class="w-3/5 flex-col space-y-10  ">
                     <h1 class="text-white font--gilroy-bold leading-none" style="font-size: 600%">
@@ -242,7 +243,7 @@
         <section class="section section-8 pt-20 m-container  h-screen w-screen" style="background: #A6C092">
             <div class="flex my-20">
                 <div class="w-2/5  px-10">
-                    <img src="{{ asset('assets/images/content.png') }}" alt="" >
+                    <img src="{{ asset('assets/images/content.png') }}" alt="">
                 </div>
                 <div class="w-3/5 flex-col space-y-10">
                     <h1 class="text-white font--gilroy-bold leading-none" style="font-size: 600%">
@@ -260,12 +261,12 @@
                     </div>
                 </div>
             </div>
-            
+
         </section>
         <section class="section section-9 pt-20 m-container  h-screen w-screen" style="background: #91C2B7">
             <div class="flex my-20">
                 <div class="w-2/5 px-10">
-                    <img src="{{ asset('assets/images/graphic-design.png') }}" alt="" >
+                    <img src="{{ asset('assets/images/graphic-design.png') }}" alt="">
                 </div>
                 <div class="w-3/5 flex-col space-y-10">
                     <h1 class="text-white font--gilroy-bold leading-none" style="font-size: 600%">
@@ -287,7 +288,7 @@
         <section class="section section-10 pt-20 m-container  h-screen w-screen" style="background: #97ACC6">
             <div class="flex my-20">
                 <div class="w-2/5 px-10">
-                    <img src="{{ asset('assets/images/logo-designing.png') }}" alt="" >
+                    <img src="{{ asset('assets/images/logo-designing.png') }}" alt="">
                 </div>
                 <div class="w-3/5 flex-col space-y-10">
                     <h1 class="text-white font--gilroy-bold leading-none" style="font-size: 600%">
@@ -309,7 +310,7 @@
         <section class="section section-11 pt-20 m-container  h-screen w-screen" style="background: #9993C2">
             <div class="flex my-10">
                 <div class="w-2/5 px-10">
-                    <img src="{{ asset('assets/images/production.png') }}" alt="" >
+                    <img src="{{ asset('assets/images/production.png') }}" alt="">
                 </div>
                 <div class="w-3/5 flex-col space-y-10">
                     <h1 class="text-white font--gilroy-bold leading-none" style="font-size: 600%">
@@ -331,7 +332,7 @@
         <section class="section section-12 pt-20 m-container  h-screen w-screen" style="background: #BF96C6">
             <div class="flex my-10">
                 <div class="w-2/5 px-10">
-                    <img src="{{ asset('assets/images/travel-pamflet.png') }}" alt="" >
+                    <img src="{{ asset('assets/images/travel-pamflet.png') }}" alt="">
                 </div>
                 <div class="w-3/5 flex-col space-y-10">
                     <h1 class="text-white font--gilroy-bold leading-none" style="font-size: 600%">
@@ -374,7 +375,7 @@
         <section class="section section-14 m-container  h-screen w-screen justify-between"
             style="background: #C59595;position: relative;">
             <div style="position: absolute;left:0;top: 0;width: 100%;height: 100%;z-index: 1">
-                <div class="flex " >
+                <div class="flex ">
                     <div class="w-2/3">
                         <img src="{{ asset('assets/images/goals/goals-1.png') }}" alt="" srcset="">
                         <img src="{{ asset('assets/images/goals/goals-2.png') }}" alt="" srcset="">
@@ -390,7 +391,7 @@
                         <h1 class="text-white font--gilroy-bold leading-none text-left" style="font-size: 700%;">
                             Goals <span class="stroke--text-white" style="font-size: 100%">App</span>
                         </h1>
-                        <h6 class="font--gilroy-bold text-white uppercase text-lg text-left" >App
+                        <h6 class="font--gilroy-bold text-white uppercase text-lg text-left">App
                             Development</h6>
                     </div>
                 </div>
@@ -424,7 +425,7 @@
                     <h6 class="text-white text-base leading-none">connect@us.solutiommedia</h6>
                     <h6 class="text-white text-base leading-none">+91 8123632783</h6>
                 </div>
-                
+
             </div>
         </section>
 
@@ -473,7 +474,8 @@
                             Lectus arcu bibendum at varius. Adipiscing diam donec adipiscing tristique.
                         </h4>
                         <h5 class="text-white font--gilroy-bold text-lg text-center">
-                            <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-purple-700">Kerry
+                            <span
+                                class="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-purple-700">Kerry
                                 Johnes</span> -
                             Some Company
                         </h5>
@@ -483,7 +485,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </section>
         <section class="section section-17 pt-20 m-container h-screen w-screen"
             style="background: linear-gradient(122.56deg, #3E3E3E -6.12%, #0D0D0D 108.94%);">
@@ -503,24 +505,25 @@
                     <form action="" class=" space-y-5 pt-20 pb-40">
                         <div>
                             <input type="text"
-                            class="form-control w-full py-3 px-5 placeholder-white text-white rounded focus:outline-none focus:ring focus:border-blue-500"
-                            placeholder="Full Name" style="background: #313131">
+                                class="form-control w-full py-3 px-5 placeholder-white text-white rounded focus:outline-none focus:ring focus:border-blue-500"
+                                placeholder="Full Name" style="background: #313131">
                         </div>
                         <div>
                             <input type="text"
-                            class="form-control w-full py-3 px-5 placeholder-white text-white rounded focus:outline-none focus:ring focus:border-blue-500"
-                            placeholder="Enter your mail-id" style="background: #313131">
+                                class="form-control w-full py-3 px-5 placeholder-white text-white rounded focus:outline-none focus:ring focus:border-blue-500"
+                                placeholder="Enter your mail-id" style="background: #313131">
                         </div>
                         <div>
                             <button
-                            class="py-3 bg-white w-full text-center font--gilroy-med text-gray-700 rounded hover:bg-gray-500 hover:text-white transition duration-300">Signup</button>
+                                class="py-3 bg-white w-full text-center font--gilroy-med text-gray-700 rounded hover:bg-gray-500 hover:text-white transition duration-300">Signup</button>
                         </div>
                     </form>
-                    
+
                 </div>
             </div>
         </section>
-        <section class="section section-18 pt-20 m-container h-screen w-screen" style="background-image: url({{ asset('assets/images/bg.png') }}); background-position:center; background-repeat: no-repeat; background-size: cover;">
+        <section class="section section-18 pt-20 m-container h-screen w-screen"
+            style="background-image: url({{ asset('assets/images/bg.png') }}); background-position:center; background-repeat: no-repeat; background-size: cover;">
             <div class="flex ">
                 <div class="w-1/2 space-y-5">
                     <h1 class="text-white font--gilroy-bold leading-none" style="font-size: 300%">

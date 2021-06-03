@@ -1,7 +1,7 @@
 <style>
-    .menu--scroll::-webkit-scrollbar {
-        display: none;
-    }
+	.menu--scroll::-webkit-scrollbar {
+		display: none;
+	}
 </style>
 
 <div x-data="{ open: false }">
@@ -9,9 +9,10 @@
 		<div> <a href=""> <img src="{{ asset('assets/images/logo.png') }}" alt=""> </a> </div>
 	</div>
 	<div :class="{ 'hidden': open }" class="fixed px-20 top-0 right-0 py-10 z-20">
-		<div> <button  @click="open = true"> <img src="{{ asset('assets/images/toggle.png') }}" alt="" class="h-12 w-12"> </button> </div>
+		<div> <button @click="open = true"> <img src="{{ asset('assets/images/toggle.png') }}" alt="" class="h-12 w-12">
+			</button> </div>
 	</div>
-	
+
 	<section x-show="open" class="bg--dark h-screen w-screen relative z-30 overflow-x-hidden">
 		<div class="flex justify-between items-center px-20">
 			<img src="{{ asset('assets/images/logo.png') }}" alt="">
@@ -25,7 +26,7 @@
 				<img src="{{ asset('assets/images/menu/menu-1.png') }}" alt="" class="rounded-xl"
 					style="box-shadow: -30px 50px 0 0 rgba(51, 51, 51, 1);">
 				<div class="flex justify-end">
-					<a href="" class="w-2/3 -mr-5 -mt-5">
+					<a href="{{ route('desktop-14') }}" class="w-2/3 -mr-5 -mt-5">
 						<div
 							class="flex justify-between items-center bg-white py-2 px-3 rounded-lg hover:bg-gray-500 hover:text-white transition duration-300">
 							<h4 class="text-sm font--gilroy-reg">Our Process</h4>
@@ -38,7 +39,7 @@
 				<img src="{{ asset('assets/images/menu/menu-2.png') }}" alt="" class="rounded-xl"
 					style="box-shadow: -30px 50px 0 0 rgba(51, 51, 51, 1);">
 				<div class="flex justify-end">
-					<a href="" class="w-2/3 -mr-5 -mt-5">
+					<a href="{{ route('capabilities') }}" class="w-2/3 -mr-5 -mt-5">
 						<div
 							class="flex justify-between items-center bg-white py-2 px-3 rounded-lg hover:bg-gray-500 hover:text-white transition duration-300">
 							<h4 class="text-sm font--gilroy-reg">Capabilities</h4>
@@ -51,7 +52,7 @@
 				<img src="{{ asset('assets/images/menu/menu-3.png') }}" alt="" class="rounded-xl"
 					style="box-shadow: -30px 50px 0 0 rgba(51, 51, 51, 1);">
 				<div class="flex justify-end">
-					<a href="" class="w-2/3 -mr-5 -mt-5">
+					<a href="{{ route('opportunities') }}" class="w-2/3 -mr-5 -mt-5">
 						<div
 							class="flex justify-between items-center bg-white py-2 px-3 rounded-lg hover:bg-gray-500 hover:text-white transition duration-300">
 							<h4 class="text-sm font--gilroy-reg">Opportunities</h4>
@@ -64,7 +65,7 @@
 				<img src="{{ asset('assets/images/menu/menu-4.png') }}" alt="" class="rounded-xl"
 					style="box-shadow: -30px 50px 0 0 rgba(51, 51, 51, 1);">
 				<div class="flex justify-end">
-					<a href="" class="w-2/3 -mr-5 -mt-5">
+					<a href="{{  route('blogs') }}" class="w-2/3 -mr-5 -mt-5">
 						<div
 							class="flex justify-between items-center bg-white py-2 px-3 rounded-lg hover:bg-gray-500 hover:text-white transition duration-300">
 							<h4 class="text-sm font--gilroy-reg">Blogs</h4>
@@ -77,7 +78,7 @@
 				<img src="{{ asset('assets/images/menu/menu-5.png') }}" alt="" class="rounded-xl"
 					style="box-shadow: -30px 50px 0 0 rgba(51, 51, 51, 1);">
 				<div class="flex justify-end">
-					<a href="" class="w-2/3 -mr-5 -mt-5">
+					<a href="{{ route('case-studies') }}" class="w-2/3 -mr-5 -mt-5">
 						<div
 							class="flex justify-between items-center bg-white py-2 px-3 rounded-lg hover:bg-gray-500 hover:text-white transition duration-300">
 							<h4 class="text-sm font--gilroy-reg">Case Studies</h4>
@@ -90,7 +91,7 @@
 				<img src="{{ asset('assets/images/menu/menu-6.png') }}" alt="" class="rounded-xl"
 					style="box-shadow: -30px 50px 0 0 rgba(51, 51, 51, 1);">
 				<div class="flex justify-end">
-					<a href="" class="w-2/3 -mr-5 -mt-5">
+					<a href="{{ route('philosophy') }}" class="w-2/3 -mr-5 -mt-5">
 						<div
 							class="flex justify-between items-center bg-white py-2 px-3 rounded-lg hover:bg-gray-500 hover:text-white transition duration-300">
 							<h4 class="text-sm font--gilroy-reg">Philosophy</h4>
@@ -101,7 +102,7 @@
 			</div>a
 		</div>
 		<div class="flex justify-center mt-20">
-			<button  @click="open = false">
+			<button @click="open = false">
 				<div
 					class="flex p-3 rounded-full bg-white w-12 h-12 hover:bg-gray-500 hover:text-white transition duration-300">
 					<i class="fas fa-times text-xl m-auto"></i>
@@ -110,7 +111,8 @@
 		</div>
 		<div class="flex justify-between items-end px-20 py-10">
 			<div>
-				<h4 class="font--gilroy-med text-white uppercase leading-none" style="font-size: 16px;">Say hello at:</h4>
+				<h4 class="font--gilroy-med text-white uppercase leading-none" style="font-size: 16px;">Say hello at:
+				</h4>
 				<h3 class="font--gilroy-med text-white leading-none" style="font-size: 23px;">Connect@solution.com</h3>
 			</div>
 			<div>
@@ -130,4 +132,3 @@
 		</div>
 	</section>
 </div>
-
